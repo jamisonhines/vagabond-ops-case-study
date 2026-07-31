@@ -4,7 +4,9 @@ Operations software for [Vagabond Adventures](https://vagabondadventures.ge), my
 
 The code is private because it runs the live business. This repo is the build log: what it does, how it's put together, and where it's headed. Updated as the project moves.
 
-<!-- SCREENSHOT: dashboard or leads table, seed data only -->
+![Quote builder with live pricing](images/ops-quote-builder.png)
+
+*All screenshots show demo data, never client data.*
 
 ## What it does
 
@@ -13,6 +15,10 @@ The code is private because it runs the live business. This repo is the build lo
 - **Vendor coordination.** Assigning guides, drivers, and accommodation to trips, with role-appropriate redaction so vendors see what they need and nothing else.
 - **Income and expense tracking** per trip and per season.
 - **Client portal** for trip details and documents.
+
+![Leads pipeline](images/ops-leads.png)
+
+![Trip view with vendor status](images/ops-trip-vendors.png)
 
 ## How it's built
 
