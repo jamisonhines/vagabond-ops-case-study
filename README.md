@@ -1,6 +1,6 @@
 # Vagabond OPS
 
-Operations software for [Vagabond Adventures](https://vagabondadventures.ge), my adventure tour company in Georgia (the country). We run cat skiing, backcountry tours, and summer trips, and the whole operation used to live in spreadsheets, chat threads, and people's heads. This app replaces that.
+Operations software for [Vagabond Adventures](https://vagabondadventures.ge), my adventure tour company in Georgia (the country). We run cat skiing, backcountry tours, and summer trips. The operation used to live in spreadsheets and people's heads, then in Zoho One. This app replaces both: purpose-built for what a tour operator actually needs, no per-user subscription fees, and no commission on bookings, unlike the booking platforms.
 
 The code is private because it runs the live business. This repo is the build log: what it does, how it's put together, and where it's headed. Updated as the project moves.
 
@@ -42,6 +42,10 @@ flowchart LR
 I direct AI to write the code. I own the domain model, the data, the priorities, and whether it actually works for the people using it. Every risky change (migrations, auth, pricing, redaction) goes through an independent AI review gate in a fresh context before merge, because the reviewer that watched the code get written is the reviewer that misses things.
 
 The interesting part of this project was never the code. It was turning ten years of "how we do things" into data structures that a seasonal team can operate without me in the room.
+
+## Roadmap
+
+Trip PDF generation, digital waiver signing, and information forms, all living in the client portal.
 
 ## Build log
 
