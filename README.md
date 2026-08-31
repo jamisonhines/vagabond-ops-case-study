@@ -22,7 +22,7 @@ The code is private because it runs the live business. This repo is the build lo
 
 ## How it's built
 
-Next.js, React, TypeScript, Supabase (Postgres with row-level security on every table). Around 40 tables, 169 automated tests, and a standing security audit habit: RLS policies, auth flows, and data redaction get reviewed as features, not afterthoughts.
+Next.js, React, TypeScript, Supabase (Postgres with row-level security on every table). Around 40 tables, 3,882 automated tests (measured 2026-08-31), and a standing security audit habit: RLS policies, auth flows, and data redaction get reviewed as features, not afterthoughts.
 
 ```mermaid
 flowchart LR
@@ -50,5 +50,5 @@ Trip PDF generation, digital waiver signing, and information forms, all living i
 ## Build log
 
 - **2026-07**: Leads module built: 7-status pipeline, filterable leads table, lead-to-booking conversion with locked quote snapshots. Next up: confirmation workflows and the lead detail page.
-- **2026-07**: Pricing engine rebuilt on versioned rate books, with guide-type rates and role-based redaction for the sales view. 169 tests passing.
+- **2026-07**: Pricing engine rebuilt on versioned rate books, with guide-type rates and role-based redaction for the sales view. Full suite passing.
 - **2026-06 and earlier**: Core CRM, vendor assignments, expense tracking, client portal, and a full defensive security audit (row-level security on every table).
