@@ -22,7 +22,7 @@ The code is private because it runs the live business. This repo is the build lo
 
 ## How it's built
 
-Next.js, React, TypeScript, Supabase (Postgres with row-level security on every table). Around 40 tables, 3,882 automated tests (measured 2026-08-31), and a standing security audit habit: RLS policies, auth flows, and data redaction get reviewed as features, not afterthoughts.
+Next.js, React, TypeScript, Supabase (Postgres with row-level security on every table). Around 40 tables, 3,903 automated tests across 299 test files (measured 2026-08-31), and a standing security audit habit: RLS policies, auth flows, and data redaction get reviewed as features, not afterthoughts.
 
 ```mermaid
 flowchart LR
